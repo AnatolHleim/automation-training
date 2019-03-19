@@ -1,0 +1,9 @@
+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÑÂÿ8“ò°˜-
+squid:S4165"eRemove this useless assignment; "cargoId" already holds the assigned value along all execution paths.(âˆÍĞ8€Ô³˜-
+Usquid:S2123":Remove this increment or correct the code not to waste it.(ÇÏöe8“ò°˜-
+‰squid:S4165"hRemove this useless assignment; "passengers" already holds the assigned value along all execution paths.(¢Ì£Úùÿÿÿÿ8ù’´˜-
+…squid:S4165"iRemove this useless assignment; "cargoWeight" already holds the assigned value along all execution paths.(¼îÙ8€Ô³˜-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÑÂÿ8“ò°˜-

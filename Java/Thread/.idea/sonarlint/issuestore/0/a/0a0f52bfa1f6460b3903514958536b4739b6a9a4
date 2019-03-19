@@ -1,0 +1,10 @@
+
+osquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.( ‚ØÎ8ÀÓ¢ª™-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ËµÁ˜ÿÿÿÿÿ8ÀÓ¢ª™-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(®ÎŸÛ8ÀÓ¢ª™-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¥ÄŽ•8ÀÓ¢ª™-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÀÓ¢ª™-
+rsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ËµÁ˜ÿÿÿÿÿ8ÀÓ¢ª™-

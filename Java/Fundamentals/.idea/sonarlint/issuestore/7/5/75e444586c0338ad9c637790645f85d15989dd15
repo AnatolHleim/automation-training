@@ -1,0 +1,6 @@
+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹¡ÿÚıÿÿÿÿ8»­˜-
+Msquid:S1068",Remove this unused "fuelType" private field.(·­¢şÿÿÿÿ8²™™”˜-
+Psquid:S1068"4Remove this unused "fuelTankCapacity" private field.(‡ïÃã8²™™”˜-
+Psquid:S1068"/Remove this unused "fuelEconomy" private field.(ˆ­†Šüÿÿÿÿ8²™™”˜-
