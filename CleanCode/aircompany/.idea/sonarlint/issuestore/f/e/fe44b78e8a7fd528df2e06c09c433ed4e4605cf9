@@ -1,0 +1,6 @@
+
+ƒsquid:S4165"fRemove this useless assignment; "maxSpeed" already holds the assigned value along all execution paths.(„şùS8òô‚-
+’squid:S4165"oRemove this useless assignment; "maxFlightDistance" already holds the assigned value along all execution paths.(Ì·éÿøÿÿÿÿ8òô‚-
+†squid:S4165"cRemove this useless assignment; "model" already holds the assigned value along all execution paths.(‡»Ø©üÿÿÿÿ8òô‚-
+Osquid:S1172",Remove this unused method parameter "plane".(îêÔ…ÿÿÿÿÿ8Öİô‚-
+Šsquid:S4165"mRemove this useless assignment; "maxLoadCapacity" already holds the assigned value along all execution paths.(…â®n8òô‚-

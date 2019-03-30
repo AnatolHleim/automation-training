@@ -88,12 +88,6 @@ public class Airport {
     return this;
   }
 
-
-  /**
-   * Sorts by max speed
-   *
-   * @return airports.Airport
-   */
   public Airport sortByMaxSpeed() {
     planes.sort(Comparator.comparingInt(Plane::getMaxSpeed));
     return this;

@@ -173,7 +173,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CleanCode/aircompany" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -413,17 +413,11 @@
       <option name="presentableId" value="Default" />
       <updated>1553938476130</updated>
       <workItem from="1553938480204" duration="21215000" />
-      <workItem from="1553977500356" duration="558000" />
+      <workItem from="1553977500356" duration="983000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CloudTest - 2019.03.30 at 18h 18m 39s.xml">
-      <configuration name="CloudTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CloudTest_verifyDataOnCalculateFormAndEmailMessageEquals_(3) - 2019.03.30 at 18h 20m 09s.xml">
-      <configuration name="CloudTest.verifyDataOnCalculateFormAndEmailMessageEquals (3)" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CloudTest_verifyDataOnCalculateFormAndEmailMessageEquals_(3) - 2019.03.30 at 18h 21m 36s.xml">
       <configuration name="CloudTest.verifyDataOnCalculateFormAndEmailMessageEquals (3)" configurationId="TestNG" />
     </history-entry>
@@ -448,9 +442,15 @@
     <history-entry file="CloudTest_verifyDataOnCalculateFormAndEmailMessageEquals_(3) - 2019.03.30 at 18h 34m 09s.xml">
       <configuration name="CloudTest.verifyDataOnCalculateFormAndEmailMessageEquals (3)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="CloudTest_verifyDataOnCalculateFormAndEmailMessageEquals_(4) - 2019.03.30 at 23h 32m 01s.xml">
+      <configuration name="CloudTest.verifyDataOnCalculateFormAndEmailMessageEquals (4)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CloudTest_verifyDataOnCalculateFormAndEmailMessageEquals_(4) - 2019.03.30 at 23h 34m 05s.xml">
+      <configuration name="CloudTest.verifyDataOnCalculateFormAndEmailMessageEquals (4)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21773000" />
+    <option name="totallyTimeSpent" value="22198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -474,7 +474,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36165577" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36165577" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2078125" />
       <window_info anchor="bottom" id="SonarLint" order="7" />

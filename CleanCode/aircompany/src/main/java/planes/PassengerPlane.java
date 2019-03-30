@@ -6,8 +6,8 @@ public class PassengerPlane extends Plane{
 
     private int passengersCapacity;
 
-    public PassengerPlane(String model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity, int passengersCapacity) {
-        super(model, maxSpeed, maxFlightDistance, maxLoadCapacity);
+    public PassengerPlane(Plane plane, int passengersCapacity) {
+        super(plane);
         this.passengersCapacity = passengersCapacity;
     }
 
