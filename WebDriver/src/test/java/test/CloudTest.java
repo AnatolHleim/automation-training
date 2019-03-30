@@ -16,7 +16,6 @@ public class CloudTest extends CommonConditions {
             .forwardGCPPricingPage()
             .forwardToPricingCalculatorPage()
             .initDataOnPageCalculator()
-            .openMainPage()
             .getTemporaryMail()
             .sendEmailOnForm()
             .getPriceOnMessage();

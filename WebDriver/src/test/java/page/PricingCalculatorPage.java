@@ -13,6 +13,7 @@ import java.util.ArrayList;
 
 public class PricingCalculatorPage extends AbstractPage {
   public static String resultOnForm;
+
   PricingCalculatorPage(WebDriver driver) {
     super(driver);
     PageFactory.initElements(this.driver, this);
@@ -99,8 +100,6 @@ public class PricingCalculatorPage extends AbstractPage {
   WebElement sendEmailButton;
 
 
-
-
   private WebElement isCurrentElementPresent(WebElement element) {
     new Actions(driver).moveToElement(webDriverWait.until(ExpectedConditions.visibilityOf(element))).perform();
     return new WebDriverWait(driver, WAIT_TIMEOUT_SECONDS)
@@ -108,6 +107,7 @@ public class PricingCalculatorPage extends AbstractPage {
   }
 
   ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+
   public TemporaryMailPage initDataOnPageCalculator() {
 
     new WebDriverWait(driver, WAIT_TIMEOUT_SECONDS).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(frameOnPageCalculator));
@@ -136,15 +136,16 @@ public class PricingCalculatorPage extends AbstractPage {
     ((JavascriptExecutor) driver).executeScript("window.open()");
     ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
     driver.switchTo().window(tabs.get(1));
-    return new TemporaryMailPage(driver);
+    return new TemporaryMailPage(driver).openMainPage();
   }
-  public TemporaryMailPage sendEmailOnForm(){
+
+  public TemporaryMailPage sendEmailOnForm() {
 
     driver.switchTo().window(tabs.get(0));
     driver.switchTo().frame(frameOnPageCalculator);
     isCurrentElementPresent(buttonToShowFormSend).click();
     isCurrentElementPresent(fieldEmailOnSendForm).sendKeys(TemporaryMailPage.TEMP_EMAIL);
-    new WebDriverWait(driver,10).until(ExpectedConditions.textToBePresentInElementValue(fieldEmailOnSendForm, TemporaryMailPage.TEMP_EMAIL));
+    new WebDriverWait(driver, 10).until(ExpectedConditions.textToBePresentInElementValue(fieldEmailOnSendForm, TemporaryMailPage.TEMP_EMAIL));
     sendEmailButton.click();
     driver.switchTo().window(tabs.get(1));
     return new TemporaryMailPage(driver);

@@ -9,18 +9,16 @@ import org.testng.annotations.BeforeMethod;
 //@Listeners({TestListener.class})
 public class CommonConditions {
 
-    WebDriver driver;
+  WebDriver driver;
 
 
-    @BeforeMethod()
-    public void setUp()
-    {
-        driver = DriverSingleton.getDriver();
-    }
+  @BeforeMethod()
+  public void setUp() {
+    driver = DriverSingleton.getDriver();
+  }
 
-    @AfterMethod(alwaysRun = true)
-    public void stopBrowser()
-    {
-        DriverSingleton.closeDriver();
-    }
+  @AfterMethod(alwaysRun = true)
+  public void stopBrowser() {
+    DriverSingleton.closeDriver();
+  }
 }
